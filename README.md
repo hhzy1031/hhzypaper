@@ -5,6 +5,7 @@
 3.chapter3文件夹下的AdaptiveDeepLayerClassifierNetwork.py对应算法3.3，算法3.1和3.2均在HAIDS.py中通过函数实现，细节自行参考代码中的备注，算法3.1中用到的两个检测器分别对应kl_divergence.py和PCA_detector.py。
 4.chapter4文件夹下的AdaptiveMultiLayerClassifierNetwork.py对应算法4.3，算法4.1对应OAIDS.py中的sliding_window_training_with_cleaning函数，其模型重用筛选机制对应PCAbasedmodelreuse_mechanism.py，算法4.2对应OAIDS中的reptile_finetune函数
 5.chapter5中设计算法直接对应PseudoLabelsIDS.py，其中AMLCN_new.py相比AdaptiveMultiLayerClassifierNetwork.py多了个特征表示输出函数，需要修改可自行查找注释
+6.chapter4文件夹下代码对应论文《An Online Intrusion Detection Method using Adaptive Multi-Level Classifier Network and PCA-Guided Model Reuse Mechanism》
 实验环境配置如下：
 Package                 Version      Editable project location
 ----------------------- ------------ ------------------------------------------------
